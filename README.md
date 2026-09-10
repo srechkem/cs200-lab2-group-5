@@ -6,3 +6,4 @@ Team: Group 5
 Members: Sarah Rechkemmer, Ross Craig, Jackson Turner, Isaac Kim
 
 This repository is practice for using Git, GitHub, and VS Code,
+Remote update completed
