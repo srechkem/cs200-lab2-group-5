@@ -1,0 +1,5 @@
+# Files the program creates when it runs (not source code)
+out/
+data/
+reports/
+eft/
