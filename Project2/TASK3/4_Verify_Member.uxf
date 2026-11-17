@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <help_text>Provider has already passed Verify Provider.
+Expiry display and identity confirmation retain optional Team 5 behavior. Only an existing active member returns Valid; every outcome reaches the same final node.</help_text>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>25</x>
+      <y>15</y>
+      <w>760</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Verify Member
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>100</y>
+      <w>30</w>
+      <h>71</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;51.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>197</y>
+      <w>30</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;39.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>282</y>
+      <w>30</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;32.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>229</x>
+      <y>342</y>
+      <w>126</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>106.0;10;10.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>380</y>
+      <w>30</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;39.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>447</y>
+      <w>109</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10;89.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>485</y>
+      <w>30</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;52.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>583</y>
+      <w>30</w>
+      <h>53</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;33.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>261</x>
+      <y>169</y>
+      <w>89</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>69.0;486;10;486;10;10;24.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>684</y>
+      <w>30</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;34.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>242</x>
+      <y>747</y>
+      <w>108</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>87.5;10;10.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>786</y>
+      <w>30</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;61.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>779</y>
+      <w>165</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;96.0;145.0;96.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>342</y>
+      <w>385</w>
+      <h>663</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>13.0;10;10;10;10;643;365.0;643</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>447</y>
+      <w>384</w>
+      <h>558</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>355.0;10;364.0;10;364.0;538;10.0;538</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>893</y>
+      <w>30</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;82.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>985</y>
+      <w>30</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;49.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>90</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>151</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Swipe card or enter
+member number
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>236</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Look up member number
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>335</x>
+      <y>314</y>
+      <w>140</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>335</x>
+      <y>342</y>
+      <w>140</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Exists?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>43</x>
+      <y>316</y>
+      <w>196</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Display Invalid
+number; return
+Invalid
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>335</x>
+      <y>419</y>
+      <w>140</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>335</x>
+      <y>447</y>
+      <w>140</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Active?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>554</x>
+      <y>418</y>
+      <w>206</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Display Member
+suspended; return
+Invalid
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>537</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Display member name
+and number
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>330</x>
+      <y>616</y>
+      <w>150</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>330</x>
+      <y>645</y>
+      <w>150</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Matches?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>330</x>
+      <y>718</y>
+      <w>150</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>330</x>
+      <y>747</y>
+      <w>150</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Expiry set?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>48</x>
+      <y>725</y>
+      <w>205</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Display optional
+expiry date
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>847</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Display Validated; return
+Valid
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>975</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>1034</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>250</x>
+      <y>326</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>421</x>
+      <y>396</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>429</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>421</x>
+      <y>505</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>261</x>
+      <y>627</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>421</x>
+      <y>698</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>250</x>
+      <y>706</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>424</x>
+      <y>809</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+</diagram>

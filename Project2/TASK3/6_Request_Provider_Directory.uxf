@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <help_text>Provider is verified; this case may also be called from Bill ChocAn.
+Acceptance-test output is a directory file rather than an actual email. Services are sorted alphabetically by service name; entries show name, code, and fee.</help_text>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>25</x>
+      <y>15</y>
+      <w>760</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Request Provider Directory
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>100</y>
+      <w>30</w>
+      <h>67</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;47.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>193</y>
+      <w>30</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;32.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>253</y>
+      <w>98</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10;78.5;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>165</y>
+      <w>156</w>
+      <h>86</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>136.0;66.0;136.0;10;10.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>291</y>
+      <w>30</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;48.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>385</y>
+      <w>30</w>
+      <h>67</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;47.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>478</y>
+      <w>30</w>
+      <h>67</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;47.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>571</y>
+      <w>30</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;34.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>633</y>
+      <w>98</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10;78.5;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>543</y>
+      <w>156</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>136.0;68.0;136.0;10;10.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>671</y>
+      <w>30</w>
+      <h>67</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;47.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>764</y>
+      <w>30</w>
+      <h>86</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;66.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>90</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>147</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Retrieve services, codes,
+and fees
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>332</x>
+      <y>225</y>
+      <w>145</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>332</x>
+      <y>253</y>
+      <w>145</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Retrieved?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>546</x>
+      <y>231</y>
+      <w>210</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Display retrieval error;
+retry
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>339</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Sort alphabetically by
+service name
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>432</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Format Provider Directory
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>525</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Write directory file for
+provider
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>332</x>
+      <y>605</y>
+      <w>145</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>332</x>
+      <y>633</y>
+      <w>145</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Written?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>546</x>
+      <y>611</y>
+      <w>210</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Display file error; retry
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>718</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Display completion; return
+directory
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>830</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>509</x>
+      <y>237</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>421</x>
+      <y>309</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>509</x>
+      <y>617</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>421</x>
+      <y>687</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+</diagram>

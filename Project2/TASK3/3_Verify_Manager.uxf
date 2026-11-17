@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <help_text>Called by the main diagram before this role is allowed to use its menu.
+Assumption: check an entered role ID against authorized role records. The assignment mandates verification but does not specify passwords.</help_text>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>25</x>
+      <y>15</y>
+      <w>640</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Verify Manager
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>335</x>
+      <y>99</y>
+      <w>30</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;43.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>335</x>
+      <y>184</y>
+      <w>30</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;34.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>335</x>
+      <y>260</y>
+      <w>30</w>
+      <h>41</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;21.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>185</x>
+      <y>313</y>
+      <w>102</w>
+      <h>111</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>82.0;10;10;10;10;91.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>413</x>
+      <y>313</y>
+      <w>102</w>
+      <h>111</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10;82.0;10;82.0;91.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>185</x>
+      <y>446</y>
+      <w>171</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;76.0;151.0;76.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>344</x>
+      <y>446</y>
+      <w>171</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>151.0;10.0;151.0;76.0;10.0;76.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>335</x>
+      <y>521</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>336</x>
+      <y>91</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>235</x>
+      <y>142</y>
+      <w>220</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Enter manager ID
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>235</x>
+      <y>218</y>
+      <w>220</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Look up authorized
+manager record
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>267</x>
+      <y>281</y>
+      <w>156</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>267</x>
+      <y>313</y>
+      <w>156</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>ID valid?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>97</x>
+      <y>404</y>
+      <w>196</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Return valid result
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>397</x>
+      <y>404</y>
+      <w>196</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Return invalid result
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>336</x>
+      <y>513</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>336</x>
+      <y>561</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>201</x>
+      <y>302</y>
+      <w>54</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Valid]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>431</x>
+      <y>302</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Invalid]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+</diagram>

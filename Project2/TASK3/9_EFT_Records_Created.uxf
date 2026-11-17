@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <help_text>Called after weekly reports at Friday midnight.
+EFT contains provider name, provider number, and amount owed. This creates a data file; it does not transfer money. When no providers are owed, no payment rows are produced.</help_text>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>25</x>
+      <y>15</y>
+      <w>760</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>EFT Records Created
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>100</y>
+      <w>30</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;55.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>201</y>
+      <w>30</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;49.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>296</y>
+      <w>30</w>
+      <h>61</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;41.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>395</x>
+      <y>417</y>
+      <w>30</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;56.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>175</x>
+      <y>372</y>
+      <w>161</w>
+      <h>149</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>110.0;129;10;129;10;10;141.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>484</x>
+      <y>372</y>
+      <w>188</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10;168.0;10;168.0;255.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>642</x>
+      <y>673</y>
+      <w>30</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;48.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>750</y>
+      <w>157</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>137.0;10;10.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>645</y>
+      <w>243</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;82.0;10;10;223.0;10</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>642</x>
+      <y>789</y>
+      <w>30</w>
+      <h>131</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10;10.0;10;111.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>395</x>
+      <y>90</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>155</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Read service records for
+reporting week
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>250</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Compute each provider
+payment total
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>316</x>
+      <y>337</y>
+      <w>178</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>316</x>
+      <y>363</y>
+      <w>178</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>More providers
+owed?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>285</x>
+      <y>473</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Add provider name,
+number, and total to EFT
+data
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>548</x>
+      <y>627</y>
+      <w>208</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Write EFT data file
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>580</x>
+      <y>721</y>
+      <w>145</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>580</x>
+      <y>750</y>
+      <w>145</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>Written?
+fontsize=16
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>218</x>
+      <y>727</y>
+      <w>235</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Display file error; retry
+fontsize=16</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>642</x>
+      <y>900</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>427</x>
+      <y>436</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>509</x>
+      <y>353</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>475</x>
+      <y>732</y>
+      <w>38</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[No]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>672</x>
+      <y>832</y>
+      <w>43</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>[Yes]
+fontsize=14
+halign=center</panel_attributes>
+    <additional_attributes />
+  </element>
+</diagram>
